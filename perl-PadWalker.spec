@@ -1,6 +1,6 @@
 Name:           perl-PadWalker
 Version:        1.96
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Play with other peoples' lexical variables
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -43,6 +43,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.96-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.96-2
+- Mass rebuild 2013-12-27
+
 * Wed Oct 24 2012 Petr Pisar <ppisar@redhat.com> - 1.96-1
 - 1.96 bump
 
